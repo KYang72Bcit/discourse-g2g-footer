@@ -18,15 +18,15 @@ const getClassName = (text) => {
           const target = fragments[3] === "blank" ? "_blank" : "";
           const icon = fragments[4].toLowerCase();
   
-          const socialLinkItem = {
-            text,
-            className,
-            title,
-            href,
-            target,
-            icon,
-          };
-          socialLinksArray.push(socialLinkItem);
+        //   const socialLinkItem = {
+        //     text,
+        //     className,
+        //     title,
+        //     href,
+        //     target,
+        //     icon,
+        //   };
+        //   socialLinksArray.push(socialLinkItem);
         });
   
   
