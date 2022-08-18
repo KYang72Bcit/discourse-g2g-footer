@@ -1,0 +1,54 @@
+<div class="wrap">
+    <div class="flexbox">
+      <div class="first-box">
+        <div class="heading">
+         {{headingImage}} {{mainHeading}}
+        </div>
+      </div>
+
+      <div class="second-box">
+        <div class="company_detail">
+            <div class="email">
+                 {{email}}
+            </div>
+            <div class="phone">
+                {{phone}}
+            </div>
+            <div class="street">
+                {{street}}
+            </div>
+            <div class="location">
+                {{location}}
+            </div>
+
+        </div>
+        <div class="blurb">
+          {{blurb}}
+        </div>
+      </div>
+   
+      <div class="third-box">
+        <div class="news_and_support">
+            <a href={{newsLetter_link}}>{{newsLetter}}</a>
+            <div class="support">
+                &#169 all right reserved • Powered by <a href="https://haylar.com/">{{haylar_logo}}</a>
+            </div>
+        </div>
+       
+      
+
+        <div class="social">
+          {{#each socialLinks as |link|}}
+            <a
+              class="social-link {{link.className}}"
+              title={{link.title}}
+              target={{link.target}}
+              href={{link.href}}
+            >
+              {{d-icon link.icon}}
+            </a>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
