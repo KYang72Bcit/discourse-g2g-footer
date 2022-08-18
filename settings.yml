@@ -20,18 +20,14 @@ Blurb:
   max: 200
   description:
     en: "Enter a short blurb about your community - Max length 180 characters"
-    
+
 Email:
   default: "info@goodtogrowproducts.com"
   max: 100
   description:
     en: "Enter Company Email address"
 
-Phone:
-  default: "604-454-8806"
-   max: 100
-  description:
-    en: "Enter phone number"
+
 
 Street:   
   default: "105 – 828 Harbourside Drive"
