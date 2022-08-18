@@ -17,7 +17,7 @@ Haylar_logo:
 
 Blurb:
   default: "The Good to Grow team respectfully acknowledges that we live and work on the unceded ancestral and traditional territory of the Sḵwx̱wú7mesh Úxwumixw (Squamish), səl̓ilw̓ətaʔɬ (Tsleil-Waututh), and xʷməθkʷəy̓əm (Musqueam) Nations."
-  max: 200
+  max: 500
   description:
     en: "Enter a short blurb about your community - Max length 180 characters"
 
@@ -27,7 +27,11 @@ Email:
   description:
     en: "Enter Company Email address"
 
-
+# Phone:
+#   default: "604-454-8806"
+#    max: 100
+#   description:
+#     en: "Enter phone number"
 
 Street:   
   default: "105 – 828 Harbourside Drive"
@@ -43,7 +47,7 @@ Location:
 
 NewsLetter:
   default: "Sign up for the Good to Grow newsletter!"
-  max: 100
+  max: 200
   description:
     en: "Newsletter Sologan"
 
